@@ -1,0 +1,6 @@
+module StringApp {
+
+    interface UpperCase {
+        string toUpperCase(in string str);
+    };
+};
