@@ -4,6 +4,7 @@ from datetime import datetime
 HOST, PORT = '', 9999
 
 s = socket.socket()
+s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 s.bind((HOST, PORT))
 s.listen(10)
 

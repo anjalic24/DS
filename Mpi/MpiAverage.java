@@ -1,3 +1,8 @@
+// export MPJ_HOME=$PWD
+// export PATH=$MPJ_HOME/bin:$PATH
+// javac -cp $MPJ_HOME/lib/mpj.jar PS2_1.java
+// mpjrun.sh -np 4 PS2_1
+
 import mpi.MPI;
 import java.util.Arrays;
 
