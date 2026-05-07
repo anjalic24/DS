@@ -1,3 +1,8 @@
+// javac *.java
+// rmiregistry
+// terminal 1 - java Server
+// terminal 2 - java Client
+
 import java.rmi.*;
 import java.util.Scanner;
 
